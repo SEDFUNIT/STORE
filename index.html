@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Iframe Example</title>
+    <title>My GitHub Page</title>
+    <style>
+        /* ให้ body และ html มีความสูง 100% */
+        html, body {
+            height: 100%;
+            margin: 0; /* ลบ margin ออก */
+        }
+        /* ทำให้ iframe ใช้ความสูงและความกว้างเต็ม */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* ไม่มีขอบ */
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <iframe src="https://script.google.com/macros/s/AKfycbwgyAUSeQOiehUpV5HMPmiY9loO79hvdrS0b928i-OFDgE8DLIJ25Lv6F2rXRXj22S8gQ/exec" width="100%" height="600px" style="border:none;"></iframe>
+    <iframe src="https://script.google.com/macros/s/AKfycbwgyAUSeQOiehUpV5HMPmiY9loO79hvdrS0b928i-OFDgE8DLIJ25Lv6F2rXRXj22S8gQ/exec"></iframe>
 </body>
 </html>
+
